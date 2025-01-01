@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.chenhaiteng.moreshapes"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         aarMetadata {
@@ -59,7 +59,7 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             groupId = "com.github.chenhaiteng"
-            artifactId = "MoreShapesCompose"
+            artifactId = "MoreShapes"
             version = "0.0.1"
 
             afterEvaluate {
